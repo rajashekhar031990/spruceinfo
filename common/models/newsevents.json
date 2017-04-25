@@ -1,0 +1,34 @@
+{
+  "name": "newsevents",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "shortdescription": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "longdescription": {
+      "type": "string",
+      "required": true
+    },
+    "imagename": {
+      "type": "string",
+      "required": false
+    },
+    "status": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
